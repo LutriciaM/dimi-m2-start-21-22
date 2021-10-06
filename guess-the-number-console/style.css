@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherish&family=Ephesis&display=block');
+body, body *{
+  margin : 0;
+  box-sizing: border-box ;
+  position :relative ;
+
+}
+
+
+h1 {
+    font-family: 'Ephesis', cursive;
+    font-size: 60px;
+   
+}
+
+
+body{
+    background-color:blueviolet;
+    min-height : 100vh; ;
+}
+.flex-center {
+ display : flex ;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+
+p span {
+     font-family: font-family: 'Ephesis', cursive;
+     display : block;
+     background-color: cornsilk;
+     border: solid 2px white;
+     border-radius: 25px;
+     padding: 16px;
+}
